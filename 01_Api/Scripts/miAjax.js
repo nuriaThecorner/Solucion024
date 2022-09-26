@@ -153,6 +153,13 @@ function categorias(param) {
 					//"                        <td>" + resultado[0].LastName + "</td>" +
 					"                        <td>" + resultado.Description + "</td>" +
 					"                    </tr>" +
+					"                    <tr>" +
+					"						 <th>Imagen</th>" +
+					/*		"                        <td><img src=\"https://tupelu.es/Ajax_y_Json/ajax_northwind_mysql/ajax_actual_fetch/detail/Images/categoria/" + elemento.EmployeeID + ".jpg\"></td>" +*/
+					//"                        <td><img src=\"https://tupelu.es/Ajax_y_Json/ajax_northwind_mysql/ajax_actual_fetch/detail/Images/categoria/" + resultado[0].EmployeeID + ".jpg\"></td>" +
+					"                        <td><img src=\"https://tupelu.es/Ajax_y_Json/ajax_northwind_mysql/ajax_actual_fetch/detail/Images/categoria/" + resultado.CategoryID + ".gif\"></td>" +
+					"                    </tr>" +
+
 					"   			   </table>";
 				//	});
 			//miTabla = miTabla01 + miTabla02 + miTabla03;    
